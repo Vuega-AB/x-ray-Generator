@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 
 # Load the generator model
-G = tf.keras.models.load_model('generator.h5')  # Ensure 'generator_model' is the correct model path
+G = tf.keras.models.load_model('generator2.h5')  # Ensure 'generator_model' is the correct model path
 
 # Streamlit app title
 st.title('Chest X-Ray Image Generator')
